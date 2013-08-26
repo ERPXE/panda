@@ -1,0 +1,17 @@
+LABEL PANDASAFE
+MENU LABEL ^Panda SafeCD
+KERNEL er/plugins/panda/vmlinuz1
+INITRD er/plugins/panda/initrd1.img
+APPEND boot=live union=aufs noswap fetch=http://10.0.0.1/er/panda/filesystem.squashfs
+TEXT HELP
+                 Panda AntiVirus - Recovery CD.
+ENDTEXT
+
+LABEL PANDA686
+MENU LABEL ^Panda SafeCD 686
+KERNEL er/plugins/panda/vmlinuz2
+INITRD er/plugins/panda/initrd2.img
+APPEND boot=live union=aufs noswap fetch=http://10.0.0.1/er/panda/filesystem.squashfs
+TEXT HELP
+                 Panda AntiVirus 686 - Recovery CD.
+ENDTEXT

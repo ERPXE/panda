@@ -1,0 +1,13 @@
+MENU BEGIN PANDASAFECD
+MENU LABEL ^Panda Safe CD
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/panda/panda.png
+
+MENU INCLUDE er/plugins/panda/pandamain.menu
+  
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

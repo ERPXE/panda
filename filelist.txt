@@ -1,0 +1,9 @@
+.:
+filelist.txt
+initrd1.img
+initrd2.img
+panda.menu
+panda.png
+pandamain.menu
+vmlinuz1
+vmlinuz2
